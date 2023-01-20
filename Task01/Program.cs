@@ -8,8 +8,7 @@ int number = 1;
 
 while (number <= N)
 {
-    value = number;
-    value *= value *= value;
+    value = number * number * number;
     Console.WriteLine("Куб числа " + number + " равен " + value);
     number++;
 }
